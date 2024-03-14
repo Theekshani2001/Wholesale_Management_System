@@ -1,0 +1,33 @@
+<div class="outer">
+
+<table class="table table-hover">
+  <thead>
+  <tr>
+    <th>Customer Id</th>
+    <th>Name</th>
+    <th>Email Address</th>
+    <th>Address</th>
+    <th>Status</th>
+  </tr>
+  </thead>
+
+  <tbody>
+  <tr>
+    <td>C-0001</td>
+    <td>Nimal Bandara</td>
+    <td>nimal@gmail.com</td>
+    <td>Galle</td>
+    <td>Active</td>
+  </tr>
+
+  </tbody>
+
+</table>
+
+<mat-paginator [length]="100"
+               [pageSize]="10"
+               [pageSizeOptions]="[5, 10, 25, 100]"
+               aria-label="Select page">
+</mat-paginator>
+</div>
+
